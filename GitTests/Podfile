@@ -1,0 +1,11 @@
+# Uncomment the next line to define a global platform for your project
+platform :ios, '9.0'
+
+target 'GitTests' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # 代码：回到某个路径下面，找一个localLib.podspec文件
+  pod 'localLib', :path => '../localLib'
+
+end

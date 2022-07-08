@@ -6,6 +6,7 @@
 //
 
 #import "ViewController.h"
+#import "person.h"
 
 @interface ViewController ()
 
